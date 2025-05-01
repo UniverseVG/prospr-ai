@@ -1,7 +1,7 @@
 import { getUserOnboardingStatus } from "@/actions/user";
+import LoadingSpinner from "@/components/LoadingSpinner";
 import { redirect } from "next/navigation";
 import React, { Suspense } from "react";
-import ClockLoader from "react-spinners/ClockLoader";
 
 const Layout = async ({ children }: { children: React.ReactNode }) => {
   const { isOnboarded } = await getUserOnboardingStatus();
@@ -16,17 +16,7 @@ const Layout = async ({ children }: { children: React.ReactNode }) => {
           Industry Insights
         </h1>
       </div>
-      <Suspense
-        fallback={
-          <ClockLoader
-            className="mt-4 text-primary"
-            color="#7b45bb"
-            size={150}
-          />
-        }
-      >
-        {children}
-      </Suspense>
+      <Suspense fallback={<LoadingSpinner />}>{children}</Suspense>
     </div>
   );
 };

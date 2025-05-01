@@ -1,0 +1,178 @@
+<svg viewBox="0 0 800 1100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="1100" fill="white" />
+  
+  <!-- Top Header Bar -->
+  <rect x="0" y="0" width="800" height="15" fill="#0466c8" />
+  
+  <!-- Header Section -->
+  <text x="50" y="60" font-family="Consolas, monospace" font-size="30" font-weight="bold" fill="#0466c8">JOHN DOE</text>
+  <text x="50" y="85" font-family="Consolas, monospace" font-size="14" fill="#333">SOFTWARE ENGINEER | FULL-STACK DEVELOPER | SYSTEMS ARCHITECT</text>
+  
+  <!-- Contact Info as Code-like Elements -->
+  <rect x="50" y="100" width="700" height="50" fill="#f3f3f3" rx="5" />
+  <text x="70" y="122" font-family="Consolas, monospace" font-size="12" fill="#0466c8">const</text>
+  <text x="110" y="122" font-family="Consolas, monospace" font-size="12" fill="#333">contact = {</text>
+  <text x="180" y="122" font-family="Consolas, monospace" font-size="12" fill="#333">email: "john@example.com", phone: "(555) 123-4567", location: "San Francisco, CA",</text>
+  <text x="180" y="142" font-family="Consolas, monospace" font-size="12" fill="#333">github: "github.com/johndoe", linkedin: "linkedin.com/in/johndoe"</text>
+  <text x="70" y="142" font-family="Consolas, monospace" font-size="12" fill="#333">};</text>
+  
+  <!-- Technical Skills Section -->
+  <text x="50" y="190" font-family="Consolas, monospace" font-size="18" font-weight="bold" fill="#0466c8">TECHNICAL SKILLS</text>
+  <line x1="50" y1="200" x2="750" y2="200" stroke="#0466c8" stroke-width="2" />
+  
+  <!-- Skills Grid in Terminal/Code Style -->
+  <rect x="50" y="215" width="700" height="160" fill="#f3f3f3" rx="5" />
+  
+  <!-- Languages -->
+  <text x="70" y="240" font-family="Consolas, monospace" font-size="14" fill="#333">Languages:</text>
+  <rect x="160" y="227" width="80" height="18" rx="9" fill="#0466c8" />
+  <text x="200" y="240" font-family="Consolas, monospace" font-size="12" fill="white" text-anchor="middle">JavaScript</text>
+  
+  <rect x="250" y="227" width="80" height="18" rx="9" fill="#0466c8" />
+  <text x="290" y="240" font-family="Consolas, monospace" font-size="12" fill="white" text-anchor="middle">TypeScript</text>
+  
+  <rect x="340" y="227" width="60" height="18" rx="9" fill="#0466c8" />
+  <text x="370" y="240" font-family="Consolas, monospace" font-size="12" fill="white" text-anchor="middle">Python</text>
+  
+  <rect x="410" y="227" width="40" height="18" rx="9" fill="#0466c8" />
+  <text x="430" y="240" font-family="Consolas, monospace" font-size="12" fill="white" text-anchor="middle">SQL</text>
+  
+  <rect x="460" y="227" width="40" height="18" rx="9" fill="#0466c8" />
+  <text x="480" y="240" font-family="Consolas, monospace" font-size="12" fill="white" text-anchor="middle">C++</text>
+  
+  <rect x="510" y="227" width="40" height="18" rx="9" fill="#0466c8" />
+  <text x="530" y="240" font-family="Consolas, monospace" font-size="12" fill="white" text-anchor="middle">Go</text>
+  
+  <!-- Frontend -->
+  <text x="70" y="270" font-family="Consolas, monospace" font-size="14" fill="#333">Frontend:</text>
+  <rect x="160" y="257" width="60" height="18" rx="9" fill="#0466c8" />
+  <text x="190" y="270" font-family="Consolas, monospace" font-size="12" fill="white" text-anchor="middle">React</text>
+  
+  <rect x="230" y="257" width="70" height="18" rx="9" fill="#0466c8" />
+  <text x="265" y="270" font-family="Consolas, monospace" font-size="12" fill="white" text-anchor="middle">Angular</text>
+  
+  <rect x="310" y="257" width="60" height="18" rx="9" fill="#0466c8" />
+  <text x="340" y="270" font-family="Consolas, monospace" font-size="12" fill="white" text-anchor="middle">Vue.js</text>
+  
+  <rect x="380" y="257" width="60" height="18" rx="9" fill="#0466c8" />
+  <text x="410" y="270" font-family="Consolas, monospace" font-size="12" fill="white" text-anchor="middle">Redux</text>
+  
+  <rect x="450" y="257" width="100" height="18" rx="9" fill="#0466c8" />
+  <text x="500" y="270" font-family="Consolas, monospace" font-size="12" fill="white" text-anchor="middle">WebAssembly</text>
+  
+  <!-- Backend -->
+  <text x="70" y="300" font-family="Consolas, monospace" font-size="14" fill="#333">Backend:</text>
+  <rect x="160" y="287" width="70" height="18" rx="9" fill="#0466c8" />
+  <text x="195" y="300" font-family="Consolas, monospace" font-size="12" fill="white" text-anchor="middle">Node.js</text>
+  
+  <rect x="240" y="287" width="70" height="18" rx="9" fill="#0466c8" />
+  <text x="275" y="300" font-family="Consolas, monospace" font-size="12" fill="white" text-anchor="middle">Express</text>
+  
+  <rect x="320" y="287" width="70" height="18" rx="9" fill="#0466c8" />
+  <text x="355" y="300" font-family="Consolas, monospace" font-size="12" fill="white" text-anchor="middle">Django</text>
+  
+  <rect x="400" y="287" width="70" height="18" rx="9" fill="#0466c8" />
+  <text x="435" y="300" font-family="Consolas, monospace" font-size="12" fill="white" text-anchor="middle">FastAPI</text>
+  
+  <rect x="480" y="287" width="80" height="18" rx="9" fill="#0466c8" />
+  <text x="520" y="300" font-family="Consolas, monospace" font-size="12" fill="white" text-anchor="middle">GraphQL</text>
+  
+  <!-- DevOps -->
+  <text x="70" y="330" font-family="Consolas, monospace" font-size="14" fill="#333">DevOps:</text>
+  <rect x="160" y="317" width="50" height="18" rx="9" fill="#0466c8" />
+  <text x="185" y="330" font-family="Consolas, monospace" font-size="12" fill="white" text-anchor="middle">AWS</text>
+  
+  <rect x="220" y="317" width="70" height="18" rx="9" fill="#0466c8" />
+  <text x="255" y="330" font-family="Consolas, monospace" font-size="12" fill="white" text-anchor="middle">Docker</text>
+  
+  <rect x="300" y="317" width="90" height="18" rx="9" fill="#0466c8" />
+  <text x="345" y="330" font-family="Consolas, monospace" font-size="12" fill="white" text-anchor="middle">Kubernetes</text>
+  
+  <rect x="400" y="317" width="70" height="18" rx="9" fill="#0466c8" />
+  <text x="435" y="330" font-family="Consolas, monospace" font-size="12" fill="white" text-anchor="middle">CI/CD</text>
+  
+  <rect x="480" y="317" width="80" height="18" rx="9" fill="#0466c8" />
+  <text x="520" y="330" font-family="Consolas, monospace" font-size="12" fill="white" text-anchor="middle">Terraform</text>
+  
+  <!-- Database -->
+  <text x="70" y="360" font-family="Consolas, monospace" font-size="14" fill="#333">Database:</text>
+  <rect x="160" y="347" width="90" height="18" rx="9" fill="#0466c8" />
+  <text x="205" y="360" font-family="Consolas, monospace" font-size="12" fill="white" text-anchor="middle">PostgreSQL</text>
+  
+  <rect x="260" y="347" width="80" height="18" rx="9" fill="#0466c8" />
+  <text x="300" y="360" font-family="Consolas, monospace" font-size="12" fill="white" text-anchor="middle">MongoDB</text>
+  
+  <rect x="350" y="347" width="60" height="18" rx="9" fill="#0466c8" />
+  <text x="380" y="360" font-family="Consolas, monospace" font-size="12" fill="white" text-anchor="middle">Redis</text>
+  
+  <rect x="420" y="347" width="140" height="18" rx="9" fill="#0466c8" />
+  <text x="490" y="360" font-family="Consolas, monospace" font-size="12" fill="white" text-anchor="middle">Database Design</text>
+  
+  <!-- Experience Section -->
+  <text x="50" y="410" font-family="Consolas, monospace" font-size="18" font-weight="bold" fill="#0466c8">PROFESSIONAL EXPERIENCE</text>
+  <line x1="50" y1="420" x2="750" y2="420" stroke="#0466c8" stroke-width="2" />
+  
+  <!-- Job 1 -->
+  <text x="50" y="445" font-family="Consolas, monospace" font-size="16" font-weight="bold" fill="#333">SENIOR SOFTWARE ENGINEER</text>
+  <text x="50" y="465" font-family="Consolas, monospace" font-size="14" fill="#0466c8">TechCorp Inc.</text>
+  <text x="700" y="465" font-family="Consolas, monospace" font-size="14" fill="#666" text-anchor="end">2020 - Present</text>
+  
+  <rect x="50" y="475" width="700" height="120" fill="#f3f3f3" rx="5" />
+  <text x="70" y="500" font-family="Consolas, monospace" font-size="13" fill="#333">
+    <tspan x="70" dy="0">• Architected and implemented a microservices platform using Node.js, Docker, and Kubernetes</tspan>
+    <tspan x="70" dy="20">• Optimized database queries and implemented caching, reducing API response times by 65%</tspan>
+    <tspan x="70" dy="20">• Developed CI/CD pipeline with GitHub Actions, reducing deployment time from hours to minutes</tspan>
+    <tspan x="70" dy="20">• Implemented authentication system using JWT and OAuth2.0 with 2FA security features</tspan>
+    <tspan x="70" dy="20">• Tech stack: TypeScript, React, Node.js, PostgreSQL, Redis, AWS, Docker, Kubernetes</tspan>
+  </text>
+  
+  <!-- Job 2 -->
+  <text x="50" y="625" font-family="Consolas, monospace" font-size="16" font-weight="bold" fill="#333">BACKEND DEVELOPER</text>
+  <text x="50" y="645" font-family="Consolas, monospace" font-size="14" fill="#0466c8">Dev Solutions</text>
+  <text x="700" y="645" font-family="Consolas, monospace" font-size="14" fill="#666" text-anchor="end">2017 - 2019</text>
+  
+  <rect x="50" y="655" width="700" height="100" fill="#f3f3f3" rx="5" />
+  <text x="70" y="680" font-family="Consolas, monospace" font-size="13" fill="#333">
+    <tspan x="70" dy="0">• Built scalable RESTful APIs serving 50+ million requests per month</tspan>
+    <tspan x="70" dy="20">• Designed and implemented PostgreSQL database schema with complex relationships</tspan>
+    <tspan x="70" dy="20">• Created automated test suite with 90%+ code coverage using Jest and Supertest</tspan>
+    <tspan x="70" dy="20">• Tech stack: JavaScript, Express, PostgreSQL, Jest, AWS Lambda, S3, CloudFront</tspan>
+  </text>
+  
+  <!-- Projects Section -->
+  <text x="50" y="785" font-family="Consolas, monospace" font-size="18" font-weight="bold" fill="#0466c8">NOTABLE PROJECTS</text>
+  <line x1="50" y1="795" x2="750" y2="795" stroke="#0466c8" stroke-width="2" />
+  
+  <rect x="50" y="810" width="700" height="130" fill="#f3f3f3" rx="5" />
+  
+  <!-- Project 1 -->
+  <text x="70" y="835" font-family="Consolas, monospace" font-size="14" font-weight="bold" fill="#333">Machine Learning Image Recognition System</text>
+  <text x="70" y="855" font-family="Consolas, monospace" font-size="13" fill="#555">
+    <tspan x="70" dy="0">• Developed a computer vision system to detect manufacturing defects with 99.2% accuracy</tspan>
+    <tspan x="70" dy="18">• Utilized TensorFlow, Python, and OpenCV for image processing pipeline</tspan>
+    <tspan x="70" dy="18">• github.com/johndoe/ml-vision-system</tspan>
+  </text>
+  
+  <!-- Project 2 -->
+  <text x="70" y="915" font-family="Consolas, monospace" font-size="14" font-weight="bold" fill="#333">Open Source GraphQL Framework Contributor</text>
+  <text x="70" y="935" font-family="Consolas, monospace" font-size="13" fill="#555">
+    <tspan x="70" dy="0">• Core contributor to popular GraphQL framework with 10k+ GitHub stars</tspan>
+    <tspan x="70" dy="18">• Implemented performance optimizations and schema validation improvements</tspan>
+  </text>
+  
+  <!-- Education Section -->
+  <text x="50" y="970" font-family="Consolas, monospace" font-size="18" font-weight="bold" fill="#0466c8">EDUCATION</text>
+  <line x1="50" y1="980" x2="750" y2="980" stroke="#0466c8" stroke-width="2" />
+  
+  <rect x="50" y="995" width="340" height="60" fill="#f3f3f3" rx="5" />
+  <text x="70" y="1020" font-family="Consolas, monospace" font-size="14" font-weight="bold" fill="#333">M.S. Computer Science</text>
+  <text x="70" y="1040" font-family="Consolas, monospace" font-size="13" fill="#555">University of Technology | 2015-2017</text>
+  
+  <rect x="410" y="995" width="340" height="60" fill="#f3f3f3" rx="5" />
+  <text x="430" y="1020" font-family="Consolas, monospace" font-size="14" font-weight="bold" fill="#333">B.S. Software Engineering</text>
+  <text x="430" y="1040" font-family="Consolas, monospace" font-size="13" fill="#555">State University | 2011-2015</text>
+  
+  <!-- Bottom Bar -->
+  <rect x="0" y="1085" width="800" height="15" fill="#0466c8" />
+</svg>

@@ -4,6 +4,7 @@ import Link from "next/link";
 import React, { useEffect, useRef } from "react";
 import { Button } from "./ui/button";
 import Image from "next/image";
+import { ArrowRight } from "lucide-react";
 
 const HeroSection = () => {
   const imageRef = useRef(null);
@@ -42,13 +43,8 @@ const HeroSection = () => {
         </div>
         <div className="flex justify-center space-x-4">
           <Link href="/dashboard">
-            <Button size="lg" className="px-8">
-              Get Started
-            </Button>
-          </Link>
-          <Link href="/">
-            <Button size="lg" variant="outline" className="px-8">
-              Watch Demo
+            <Button size="lg" className="px-8 cursor-pointer" variant={"outline"}>
+              Get Started <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
           </Link>
         </div>

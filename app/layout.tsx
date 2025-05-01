@@ -18,6 +18,12 @@ export const metadata: Metadata = {
       sizes: "256x256",
     },
   },
+  viewport: {
+    width: "device-width",
+    initialScale: 1,
+    maximumScale: 1,
+    userScalable: false,
+  },
 };
 
 export default function RootLayout({

@@ -1,0 +1,85 @@
+<svg viewBox="0 0 800 1100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="1100" fill="white" />
+  
+  <!-- Header with elegant border -->
+  <rect x="50" y="50" width="700" height="150" fill="#f9f9f9" stroke="#d4d4d4" stroke-width="1" />
+  
+  <!-- Name and Title -->
+  <text x="70" y="110" font-family="Georgia" font-size="42" font-weight="bold" fill="#2c3e50">JOHN DOE</text>
+  <line x1="70" y1="130" x2="400" y2="130" stroke="#b99e5b" stroke-width="3" />
+  <text x="70" y="160" font-family="Georgia" font-size="18" fill="#5d6d7e">CHIEF TECHNOLOGY OFFICER</text>
+  
+  <!-- Contact details -->
+  <text x="700" y="80" font-family="Georgia" font-size="12" fill="#5d6d7e" text-anchor="end">john.doe@executive.com</text>
+  <text x="700" y="100" font-family="Georgia" font-size="12" fill="#5d6d7e" text-anchor="end">(555) 123-4567</text>
+  <text x="700" y="120" font-family="Georgia" font-size="12" fill="#5d6d7e" text-anchor="end">San Francisco, CA</text>
+  <text x="700" y="140" font-family="Georgia" font-size="12" fill="#5d6d7e" text-anchor="end">linkedin.com/in/johndoe</text>
+  <text x="700" y="160" font-family="Georgia" font-size="12" fill="#5d6d7e" text-anchor="end">johndoe.com</text>
+  
+  <!-- Executive Summary -->
+  <text x="50" y="240" font-family="Georgia" font-size="20" font-weight="bold" fill="#2c3e50">EXECUTIVE SUMMARY</text>
+  <line x1="50" y1="255" x2="750" y2="255" stroke="#e5e5e5" stroke-width="1" />
+  
+  <rect x="50" y="270" width="700" height="100" fill="white" />
+  <text x="50" y="290" font-family="Georgia" font-size="14" fill="#333333" line-height="1.5">
+    <tspan x="50" dy="0">Senior technology executive with over 15 years of experience transforming business operations through</tspan>
+    <tspan x="50" dy="22">strategic technological innovation. Proven track record of building high-performing teams and delivering</tspan>
+    <tspan x="50" dy="22">multimillion-dollar initiatives that drive revenue growth and operational efficiency. Known for translating</tspan>
+    <tspan x="50" dy="22">complex technical concepts into business value and aligning IT strategy with organizational objectives.</tspan>
+  </text>
+  
+  <!-- Core Competencies -->
+  <text x="50" y="400" font-family="Georgia" font-size="20" font-weight="bold" fill="#2c3e50">CORE COMPETENCIES</text>
+  <line x1="50" y1="415" x2="750" y2="415" stroke="#e5e5e5" stroke-width="1" />
+  
+  <!-- Competency columns -->
+  <text x="100" y="445" font-family="Georgia" font-size="14" fill="#333333">• Strategic IT Leadership</text>
+  <text x="100" y="470" font-family="Georgia" font-size="14" fill="#333333">• Digital Transformation</text>
+  <text x="100" y="495" font-family="Georgia" font-size="14" fill="#333333">• Enterprise Architecture</text>
+  
+  <text x="350" y="445" font-family="Georgia" font-size="14" fill="#333333">• Executive Team Management</text>
+  <text x="350" y="470" font-family="Georgia" font-size="14" fill="#333333">• Budget Optimization</text>
+  <text x="350" y="495" font-family="Georgia" font-size="14" fill="#333333">• Vendor Negotiations</text>
+  
+  <text x="600" y="445" font-family="Georgia" font-size="14" fill="#333333">• Cloud Strategy</text>
+  <text x="600" y="470" font-family="Georgia" font-size="14" fill="#333333">• Cybersecurity Governance</text>
+  <text x="600" y="495" font-family="Georgia" font-size="14" fill="#333333">• Board Presentations</text>
+  
+  <!-- Professional Experience -->
+  <text x="50" y="550" font-family="Georgia" font-size="20" font-weight="bold" fill="#2c3e50">PROFESSIONAL EXPERIENCE</text>
+  <line x1="50" y1="565" x2="750" y2="565" stroke="#e5e5e5" stroke-width="1" />
+  
+  <!-- Job 1 -->
+  <text x="50" y="595" font-family="Georgia" font-size="18" font-weight="bold" fill="#2c3e50">CHIEF TECHNOLOGY OFFICER</text>
+  <text x="50" y="620" font-family="Georgia" font-size="16" fill="#b99e5b">Global Innovations Inc.</text>
+  <text x="650" y="620" font-family="Georgia" font-size="14" fill="#5d6d7e" text-anchor="end">2018 - Present</text>
+  
+  <text x="70" y="650" font-family="Georgia" font-size="14" fill="#333333">• Led digital transformation initiative that increased operational efficiency by 35% and generated $12M in savings</text>
+  <text x="70" y="675" font-family="Georgia" font-size="14" fill="#333333">• Restructured IT department of 120+ professionals, aligning capabilities with strategic business objectives</text>
+  <text x="70" y="700" font-family="Georgia" font-size="14" fill="#333333">• Established enterprise-wide cybersecurity program, reducing security incidents by 75%</text>
+  <text x="70" y="725" font-family="Georgia" font-size="14" fill="#333333">• Spearheaded cloud migration strategy, resulting in 40% reduction in infrastructure costs</text>
+  
+  <!-- Job 2 -->
+  <text x="50" y="770" font-family="Georgia" font-size="18" font-weight="bold" fill="#2c3e50">VP OF TECHNOLOGY</text>
+  <text x="50" y="795" font-family="Georgia" font-size="16" fill="#b99e5b">TechForward Solutions</text>
+  <text x="650" y="795" font-family="Georgia" font-size="14" fill="#5d6d7e" text-anchor="end">2014 - 2018</text>
+  
+  <text x="70" y="825" font-family="Georgia" font-size="14" fill="#333333">• Directed development of proprietary software platform that increased company valuation by $50M</text>
+  <text x="70" y="850" font-family="Georgia" font-size="14" fill="#333333">• Built and mentored high-performing engineering team of 45 professionals across 3 global locations</text>
+  <text x="70" y="875" font-family="Georgia" font-size="14" fill="#333333">• Implemented agile methodology, reducing time-to-market by 60%</text>
+  
+  <!-- Education -->
+  <text x="50" y="925" font-family="Georgia" font-size="20" font-weight="bold" fill="#2c3e50">EDUCATION</text>
+  <line x1="50" y1="940" x2="750" y2="940" stroke="#e5e5e5" stroke-width="1" />
+  
+  <text x="50" y="970" font-family="Georgia" font-size="16" font-weight="bold" fill="#2c3e50">MBA, BUSINESS ADMINISTRATION</text>
+  <text x="50" y="995" font-family="Georgia" font-size="14" fill="#5d6d7e">Harvard Business School | 2012</text>
+  
+  <text x="400" y="970" font-family="Georgia" font-size="16" font-weight="bold" fill="#2c3e50">MS, COMPUTER SCIENCE</text>
+  <text x="400" y="995" font-family="Georgia" font-size="14" fill="#5d6d7e">Stanford University | 2008</text>
+  
+  <!-- Footer with elegant line -->
+  <line x1="50" y1="1040" x2="750" y2="1040" stroke="#b99e5b" stroke-width="1" />
+  <text x="400" y="1070" font-family="Georgia" font-size="12" fill="#5d6d7e" text-anchor="middle">References available upon request</text>
+</svg>

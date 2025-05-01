@@ -44,6 +44,8 @@ CREATE TABLE "Resume" (
     "feedback" TEXT,
     "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
     "updatedAt" TIMESTAMP(3) NOT NULL,
+    "templateType" TEXT,
+    "fieldValues" JSONB,
 
     CONSTRAINT "Resume_pkey" PRIMARY KEY ("id")
 );

@@ -1,0 +1,83 @@
+<svg viewBox="0 0 800 1100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="1100" fill="white" />
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="800" height="150" fill="#2b3a4a" />
+  <text x="400" y="75" font-family="Arial" font-size="40" font-weight="bold" fill="white" text-anchor="middle">JOHN DOE</text>
+  <text x="400" y="115" font-family="Arial" font-size="18" fill="#d5d5d5" text-anchor="middle">SOFTWARE ENGINEER</text>
+  
+  <!-- Contact Info -->
+  <rect x="0" y="150" width="800" height="50" fill="#e6e6e6" />
+  <text x="400" y="180" font-family="Arial" font-size="14" fill="#444" text-anchor="middle">john@example.com | (555) 123-4567 | San Francisco, CA | linkedin.com/in/johndoe</text>
+  
+  <!-- Professional Summary Section -->
+  <text x="70" y="240" font-family="Arial" font-size="18" font-weight="bold" fill="#2b3a4a">PROFESSIONAL SUMMARY</text>
+  <line x1="70" y1="250" x2="730" y2="250" stroke="#2b3a4a" stroke-width="2" />
+  <text x="70" y="275" font-family="Arial" font-size="14" fill="#333">Seasoned software engineer with 5+ years of experience developing scalable applications and</text>
+  <text x="70" y="295" font-family="Arial" font-size="14" fill="#333">optimizing code performance. Strong problem-solving skills with expertise in full-stack development</text>
+  <text x="70" y="315" font-family="Arial" font-size="14" fill="#333">and implementing industry best practices. Track record of successful project delivery in agile environments.</text>
+  
+  <!-- Experience Section -->
+  <text x="70" y="350" font-family="Arial" font-size="18" font-weight="bold" fill="#2b3a4a">PROFESSIONAL EXPERIENCE</text>
+  <line x1="70" y1="360" x2="730" y2="360" stroke="#2b3a4a" stroke-width="2" />
+  
+  <!-- Job 1 -->
+  <text x="70" y="390" font-family="Arial" font-size="16" font-weight="bold" fill="#333">Senior Software Engineer</text>
+  <text x="70" y="410" font-family="Arial" font-size="14" fill="#444">TechCorp Inc.</text>
+  <text x="730" y="410" font-family="Arial" font-size="14" fill="#444" text-anchor="end">January 2020 - Present</text>
+  <text x="90" y="435" font-family="Arial" font-size="14" fill="#333">• Led development of cloud-based platform serving 10k+ users, resulting in 25% revenue growth</text>
+  <text x="90" y="455" font-family="Arial" font-size="14" fill="#333">• Reduced loading times by 40% through performance optimization and code refactoring</text>
+  <text x="90" y="475" font-family="Arial" font-size="14" fill="#333">• Mentored junior developers and implemented code review processes that improved code quality</text>
+  <text x="90" y="495" font-family="Arial" font-size="14" fill="#333">• Collaborated with product team to prioritize features and enhance user experience</text>
+  
+  <!-- Job 2 -->
+  <text x="70" y="525" font-family="Arial" font-size="16" font-weight="bold" fill="#333">Software Developer</text>
+  <text x="70" y="545" font-family="Arial" font-size="14" fill="#444">Dev Solutions</text>
+  <text x="730" y="545" font-family="Arial" font-size="14" fill="#444" text-anchor="end">March 2017 - December 2019</text>
+  <text x="90" y="570" font-family="Arial" font-size="14" fill="#333">• Developed RESTful APIs for e-commerce applications used by 50+ clients</text>
+  <text x="90" y="590" font-family="Arial" font-size="14" fill="#333">• Implemented automated testing, improving code coverage by 65%</text>
+  <text x="90" y="610" font-family="Arial" font-size="14" fill="#333">• Optimized database queries, resulting in 30% faster response times</text>
+  
+  <!-- Skills Section -->
+  <text x="70" y="650" font-family="Arial" font-size="18" font-weight="bold" fill="#2b3a4a">SKILLS</text>
+  <line x1="70" y1="660" x2="730" y2="660" stroke="#2b3a4a" stroke-width="2" />
+  
+  <!-- Skills Columns -->
+  <text x="70" y="690" font-family="Arial" font-size="16" font-weight="bold" fill="#444">Technical Skills</text>
+  <text x="90" y="715" font-family="Arial" font-size="14" fill="#333">• Programming: JavaScript, TypeScript, Python, Java</text>
+  <text x="90" y="735" font-family="Arial" font-size="14" fill="#333">• Frontend: React, Angular, HTML5, CSS3, SASS</text>
+  <text x="90" y="755" font-family="Arial" font-size="14" fill="#333">• Backend: Node.js, Express, Django, Spring Boot</text>
+  <text x="90" y="775" font-family="Arial" font-size="14" fill="#333">• Database: MongoDB, PostgreSQL, MySQL, Redis</text>
+  
+  <text x="400" y="690" font-family="Arial" font-size="16" font-weight="bold" fill="#444">Professional Skills</text>
+  <text x="420" y="715" font-family="Arial" font-size="14" fill="#333">• Project Management & Agile Methodologies</text>
+  <text x="420" y="735" font-family="Arial" font-size="14" fill="#333">• Technical Leadership & Mentoring</text>
+  <text x="420" y="755" font-family="Arial" font-size="14" fill="#333">• Problem Solving & Analytical Thinking</text>
+  <text x="420" y="775" font-family="Arial" font-size="14" fill="#333">• Communication & Collaboration</text>
+  
+  <!-- Education Section -->
+  <text x="70" y="810" font-family="Arial" font-size="18" font-weight="bold" fill="#2b3a4a">EDUCATION</text>
+  <line x1="70" y1="820" x2="730" y2="820" stroke="#2b3a4a" stroke-width="2" />
+  
+  <text x="70" y="850" font-family="Arial" font-size="16" font-weight="bold" fill="#333">Master of Computer Science</text>
+  <text x="70" y="870" font-family="Arial" font-size="14" fill="#444">University of Technology</text>
+  <text x="730" y="870" font-family="Arial" font-size="14" fill="#444" text-anchor="end">2015 - 2017</text>
+  
+  <text x="70" y="905" font-family="Arial" font-size="16" font-weight="bold" fill="#333">Bachelor of Science in Software Engineering</text>
+  <text x="70" y="925" font-family="Arial" font-size="14" fill="#444">State University</text>
+  <text x="730" y="925" font-family="Arial" font-size="14" fill="#444" text-anchor="end">2011 - 2015</text>
+  
+  <!-- Certifications Section -->
+  <text x="70" y="965" font-family="Arial" font-size="18" font-weight="bold" fill="#2b3a4a">CERTIFICATIONS</text>
+  <line x1="70" y1="975" x2="730" y2="975" stroke="#2b3a4a" stroke-width="2" />
+  
+  <text x="90" y="1000" font-family="Arial" font-size="14" fill="#333">• AWS Certified Solutions Architect</text>
+  <text x="90" y="1020" font-family="Arial" font-size="14" fill="#333">• Google Cloud Professional Developer</text>
+  <text x="420" y="1000" font-family="Arial" font-size="14" fill="#333">• Certified Scrum Master (CSM)</text>
+  <text x="420" y="1020" font-family="Arial" font-size="14" fill="#333">• MongoDB Certified Developer</text>
+  
+  <!-- Footer -->
+  <rect x="0" y="1060" width="800" height="40" fill="#e6e6e6" />
+  <text x="400" y="1085" font-family="Arial" font-size="12" fill="#444" text-anchor="middle">References available upon request</text>
+</svg>

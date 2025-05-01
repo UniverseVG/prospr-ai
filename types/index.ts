@@ -104,3 +104,56 @@ export interface InsightData {
   lastUpdated: string;
   nextUpdate: string;
 }
+
+export type QuizQuestion = {
+  answer: string;
+  question: string;
+  isCorrect: boolean;
+  userAnswer: string;
+  explanation: string;
+};
+
+export type AIQuizQuestion = {
+  question: string;
+  options: string[];
+  correctAnswer: string;
+  explanation: string;
+};
+
+export interface QuizResultType {
+  id: string;
+  userId: string;
+  quizScore: number;
+  questions: QuizQuestion[];
+  category: string;
+  improvementTip: string;
+  createdAt: string;
+  updatedAt: string;
+}
+
+export type ActiveTab = "edit" | "markdown" | "preview";
+
+export type EntryFormType =
+  | "experience"
+  | "education"
+  | "projects"
+  | "certifications"
+  | "publications"
+  | "awards";
+
+export interface ContactInfoType {
+  name: string;
+  email: string;
+  mobile?: string;
+  linkedin?: string;
+  twitter?: string;
+  location?: string;
+  website?: string;
+}
+
+export type CoverLetterType = {
+  jobDescription: string;
+  companyName: string;
+  jobTitle: string;
+  status: string;
+};
