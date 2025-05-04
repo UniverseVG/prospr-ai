@@ -121,7 +121,7 @@ const Header = async () => {
                     Sign In
                   </Button>
                 </SignInButton>
-                <Link href="/register">
+                <Link href="/sign-up">
                   <Button
                     size="sm"
                     variant="outline"

@@ -12,7 +12,7 @@ const InterviewPage = async () => {
     <div className="relative">
       <div className="grid-background"></div>
       <div className="flex items-center justify-between mb-5">
-        <h1 className="text-6xl font-bold gradient gradient-title">
+        <h1 className="text-4xl sm:text-6xl font-bold gradient gradient-title">
           Interview Prep
         </h1>
       </div>

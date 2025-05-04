@@ -12,7 +12,7 @@ const Layout = async ({ children }: { children: React.ReactNode }) => {
   return (
     <div className="px-5">
       <div className="flex justify-between items-center mb-5">
-        <h1 className="text-6xl gradient gradient-title font-bold">
+        <h1 className="text-4xl sm:text-6xl gradient gradient-title font-bold">
           Industry Insights
         </h1>
       </div>

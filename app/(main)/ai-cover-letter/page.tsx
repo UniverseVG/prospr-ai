@@ -10,8 +10,8 @@ export default async function CoverLetterPage() {
   return (
     <div className="relative">
       <div className="grid-background"></div>
-      <div className="flex flex-col md:flex-row gap-2 items-center justify-between mb-5">
-        <h1 className="text-6xl font-bold gradient gradient-title">
+      <div className="flex flex-col sm:flex-row gap-2 items-start sm:items-center justify-between mb-5">
+        <h1 className="text-4xl sm:text-6xl font-bold gradient gradient-title">
           My Cover Letters
         </h1>
         <Link href="/ai-cover-letter/new">

@@ -168,7 +168,7 @@ const FuturisticDashboard = ({ insights }: DashboardProps) => {
 
   return (
     <div className="space-y-10">
-      <div className="flex flex-col sm:flex-row justify-between items-center mb-6">
+      <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6">
         <motion.div
           initial="hidden"
           animate="visible"
@@ -182,7 +182,7 @@ const FuturisticDashboard = ({ insights }: DashboardProps) => {
               <Sun className="h-8 w-8 text-primary" />
             )}
           </motion.div>
-          <h1 className="text-4xl font-extrabold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+          <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-extrabold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
             {greeting}, {userName}!
           </h1>
         </motion.div>
