@@ -240,7 +240,7 @@ const MobileNav = () => {
                     Sign In
                   </Button>
                 </SignInButton>
-                <Link href="/register">
+                <Link href="/sign-up">
                   <Button variant="outline" className="w-full h-12">
                     Register
                   </Button>
